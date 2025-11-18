@@ -1,0 +1,142 @@
+/* Main Page */
+body { padding-top: 90px;
+    background-color: #a3c2e6;}
+.container {
+    padding: 50px; max-width: 1250px;
+    margin: auto;
+    background-color: #e7e7df;
+    padding: 25px;
+    width: fit-content;
+    display: flow-root;
+    font-family: Delius;
+}
+
+.Mainslime {  float: left;
+ margin-right: 10px;
+ margin-bottom: 10px;
+}
+.Welcomeing {background-color: #ecaccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+
+}
+
+.Slush {text-align: left;
+    padding-top: 150px;
+} 
+
+button {border: 0;
+    padding: 15px;
+    background-color:#8c8bc4;
+    display: block; 
+    clear: none;
+}
+a {text-decoration: none;}
+
+nav {   position: fixed; 
+   top: 0px; 
+   left: 0px; 
+   width: 100%;
+   background-color: #8dbc9d;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   display: flex;
+  justify-content: space-evenly;
+   gap: 1px;
+   
+}
+
+h5 { text-align: center; }
+
+
+footer { background-color: #8dbc9d;
+    display: grid; 
+    margin-top: 40px;
+    align-items: center;
+grid-template-columns: 1fr 1fr 1fr;
+}
+.copyright { text-align: center;}
+
+/* About Us Page */
+
+.found { width: 300px; padding: 10px; max-width: 800px;
+   border-radius: 50%;
+   float: left;
+ margin-right: 10px;
+ margin-bottom: 10px;
+   
+}
+.Foundertext {text-align: left;
+    padding-top: 50px;
+    padding-bottom: 100px;
+} 
+.cound { width: 300px; padding: 10px; max-width: 800px;
+   border-radius: 50%;
+   float: right;
+ margin-right: 10px;
+ margin-bottom: 10px;}
+
+ .Coundertext { text-align:right;
+    padding-top: 60px;
+    padding-bottom: 100px;  }
+
+.tound {width: 300px; padding: 10px; max-width: 800px;
+   border-radius: 50%;
+   float: left;
+ margin-right: 10px;
+ margin-bottom: 10px; }
+
+ .toundertext {text-align: left;
+    padding-top: 70px;
+    padding-bottom: 130px;
+} 
+
+.stats { display: grid;
+align-items: justify;
+background-color: #ecaccc;
+padding-left: 10px;
+padding-right: 10px;
+grid-template-columns: 1fr 1fr 1fr;}
+
+.statCenter { text-align: center;}
+
+/* Adopt Page */
+.Monsters { 
+    padding-top: 5px;
+    padding-left: 20px;
+    display: flexbox; 
+   flex-wrap: wrap;
+ }
+
+ h1 { text-align: center;
+}
+.Pets {  float: left;
+    
+}
+/* Adoption Pet Page */
+
+.PetButtons { display: flex; 
+   justify-content: space-between; 
+gap: 10px;
+padding-bottom: 1px;
+}
+.PetText { padding-top: 100px;
+    padding-left: 603px;
+    padding-bottom: 110px;
+    text-align: center;}
+.AdoptButton { margin-left: 50%;}
+
+/* Contact Page */
+.fa-brands {font-size: 40px;}
+
+.GetInTouch {text-align: center;}
+
+.Donation {text-align: center;
+}
+
+
+
+
